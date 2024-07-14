@@ -1,3 +1,10 @@
+# Team SheHacks Working Prototype for HackerRamp: WeForShe 2024
+Team Members-
+  Prableen Kaur
+  Tanisha Puri
+  Tanya Pattnaik
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
