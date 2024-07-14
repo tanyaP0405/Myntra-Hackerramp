@@ -1,0 +1,35 @@
+.model {
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+  
+  .model img {
+    max-width: 150px;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+  
+  .model-prev-prev,
+  .model-next-next {
+    opacity: 0.3;
+    transform: scale(0.6) translateX(-60%);
+  }
+  
+  .model-prev {
+    opacity: 0.5;
+    transform: scale(0.8) translateX(-30%);
+  }
+  
+  .model-current {
+    opacity: 1;
+    transform: scale(1) translateX(0);
+  }
+  
+  .model-next {
+    opacity: 0.5;
+    transform: scale(0.8) translateX(30%);
+  }
+  
+  .model-next-next {
+    opacity: 0.3;
+    transform: scale(0.6) translateX(60%);
+  }
