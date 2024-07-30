@@ -1,0 +1,5 @@
+.image {
+    height: 95vh; /* Height relative to viewport height */
+    width: 100vw; /* Maintain aspect ratio */
+  }
+  

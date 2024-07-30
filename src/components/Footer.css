@@ -1,0 +1,49 @@
+/* Footer.css */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .app-links img, .social-links img {
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  .guarantee, .return-policy {
+    margin-bottom: 20px;
+  }
+  
+  .guarantee h4, .return-policy h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .guarantee p, .return-policy p {
+    margin: 5px 0 0;
+  }
+  

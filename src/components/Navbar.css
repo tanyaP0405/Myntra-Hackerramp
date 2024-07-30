@@ -1,0 +1,32 @@
+.custom-navbar {
+    width: 100%; 
+}
+
+.custom-nav .nav-link,
+.custom-nav .nav-item {
+    margin-right: 20px;
+    color: black !important;
+}
+
+.custom-dropdown .dropdown-toggle::after {
+    display: none;
+}
+
+.custom-dropdown .dropdown-menu {
+    display: none; 
+}
+
+.custom-dropdown:hover .dropdown-menu {
+    display: block !important; 
+}
+
+.custom-dropdown.show .dropdown-menu {
+    display: block !important; 
+}
+
+.custom-nav .nav-link:hover,
+.custom-nav .dropdown-item:hover {
+    text-decoration: none;
+    box-shadow: inset 0 -2px 0 0 rgb(242,36,178);
+}
+

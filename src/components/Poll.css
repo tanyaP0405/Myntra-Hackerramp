@@ -1,0 +1,137 @@
+/* General Carousel Styling */
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 60vh;
+  width: 100%;
+}
+
+.carousel-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  overflow: hidden;
+}
+
+/* Model Styling */
+.model {
+  flex-shrink: 0;
+  width: 408px;  /* Fixed width */
+  height: 612px;  /* Fixed height */
+  margin: 0 10px; /* Adjust spacing between images */
+  transition: transform 0.5s ease;
+}
+
+.model-current {
+  transform: scale(1.1); /* Slightly increase the size of the current image */
+  z-index: 1;
+}
+
+/* Carousel Button Styling */
+.carousel-btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.left-btn {
+  left: 20px;
+}
+
+.right-btn {
+  right: 20px;
+}
+
+/* Poll Actions Styling */
+.poll-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.view-btn {
+  background: linear-gradient(#F61CB3, #F45412);
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  width: 150px; 
+  transition: background-color 0.3s ease;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.view-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Gender Filter Styling */
+.gender-filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.gender-filter label {
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.gender-filter select {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+/* Responsive Styling */
+@media (max-width: 1200px) {
+  .model {
+    width: 340px; /* Adjust width for larger tablets */
+    height: 510px; /* Adjust height for larger tablets */
+  }
+}
+
+@media (max-width: 992px) {
+  .model {
+    width: 280px; /* Adjust width for tablets */
+    height: 420px; /* Adjust height for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .model {
+    width: 220px; /* Adjust width for smaller tablets */
+    height: 330px; /* Adjust height for smaller tablets */
+  }
+  
+  .carousel-btn {
+    font-size: 1.5rem; /* Adjust button size for smaller screens */
+    padding: 5px; /* Adjust button padding for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-inner {
+    width: 100%; /* Full width for mobile devices */
+  }
+
+  .model {
+    width: 180px; /* Adjust width for mobile devices */
+    height: 270px; /* Adjust height for mobile devices */
+  }
+
+  .carousel-btn {
+    font-size: 1.2rem; /* Further adjust button size for mobile devices */
+    padding: 5px; /* Further adjust button padding for mobile devices */
+  }
+}

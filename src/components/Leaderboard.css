@@ -1,0 +1,163 @@
+/* Leaderboard.css */
+
+.jumbotron {
+  padding: 2rem 1rem;
+}
+
+.jumbotron .display-4 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.jumbotron .lead {
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.banner {
+  height: 12vh;
+  background: black;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leaderboard {
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.model-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.model-details {
+  text-align: center;
+  padding: 10px;
+}
+
+.vote-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 20px;
+  margin: 10px 0;
+}
+
+.vote-bar-fill {
+  height: 100%;
+  background-color: #ff3b3f;
+  transition: width 0.5s ease-in-out;
+}
+
+.vote-count {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .jumbotron .display-4 {
+    font-size: 2rem;
+  }
+
+  .jumbotron .lead {
+    font-size: 1rem;
+  }
+
+  .grid-item {
+    width: 100%;
+  }
+
+  .model-details {
+    padding: 5px;
+  }
+
+  .vote-count {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .jumbotron {
+    padding: 1rem 0.5rem;
+  }
+
+  .banner {
+    height: 10vh;
+  }
+
+  .grid-item {
+    padding: 5px;
+  }
+}
+
+/* Leaderboard.css */
+
+/* General Styles */
+.filters {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between buttons */
+  margin-bottom: 20px;
+}
+
+.filters button {
+  padding: 8px 16px; /* Reduced padding for a sleeker look */
+  font-size: 0.9rem; /* Slightly smaller font size */
+  border: 1px solid #ff3b3f; /* Border color to match button background */
+  border-radius: 20px; /* Rounded corners */
+  background-color: #fff; /* White background */
+  color: #ff3b3f; /* Text color matching the border */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  text-transform: uppercase; /* Uppercase text */
+}
+
+.filters button:hover {
+  background-color: #ff3b3f; /* Background color on hover */
+  color: #fff; /* Text color on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.filters button.active {
+  background-color: #ff3b3f; /* Active button background color */
+  color: #fff; /* Active button text color */
+  font-weight: bold; /* Bold text for active filter */
+}
+
+.filters button:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 3px rgba(255, 59, 63, 0.3); /* Subtle focus outline */
+}
+
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    gap: 5px; /* Smaller gap on smaller screens */
+  }
+
+  .filters button {
+    width: 100%; /* Full-width buttons on smaller screens */
+  }
+}

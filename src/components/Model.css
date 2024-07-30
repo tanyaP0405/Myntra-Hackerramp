@@ -1,0 +1,42 @@
+.model {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  height: 60vh; /* You can adjust this based on your layout needs */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.model img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.model-prev-prev,
+.model-next-next {
+  opacity: 0.3;
+  transform: scale(0.6);
+}
+
+.model-prev {
+  opacity: 0.5;
+  transform: scale(0.8);
+}
+
+.model-current {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.model-next {
+  opacity: 0.5;
+  transform: scale(0.8);
+}
+
+.model-next-next {
+  opacity: 0.3;
+  transform: scale(0.6);
+}

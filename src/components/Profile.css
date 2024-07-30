@@ -1,0 +1,124 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+  }
+  
+  .profile-container {
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .profile-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .profile-rating {
+    text-align: center;
+  }
+  
+  .profile-rating h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #888;
+  }
+  
+  .profile-rating p {
+    font-size: 1.3rem;
+    color: #555;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .profile-item {
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .profile-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .profile-item h2 {
+    margin: 0 0 15px 0;
+    font-size: 1.8rem;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .designs-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .design-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .design-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .design-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .design-info {
+    padding: 15px;
+    background: #f7f7f7;
+  }
+  
+  .design-title {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .design-votes {
+    margin: 10px 0 0 0;
+    font-size: 1rem;
+    color: #888;
+  }
+  
