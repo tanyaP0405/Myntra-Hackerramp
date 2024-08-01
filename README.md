@@ -4,6 +4,44 @@ Team Members-
   Tanisha Puri
   Tanya Pattnaik
 
+# Problem Statement
+Myntra faces the challenge of aligning its fashion collections with the diverse and rapidly evolving preferences of its users. Often the existing collection may not encompass the latest trends or cater to the unique tastes of individual users. What’s better than your customers themselves bringing you the content?
+
+# Solution
+We propose a "Design" feature allowing users to submit fashion designs or looks directly on Myntra. Weekly polls will determine user interest enabling the launch of one new style each week. This initiative also helps in improving the recommendation algorithm, smoothing the search flow, and providing a more user-centric catalog. It enhances Myntra's product offering, fosters a mini-entrepreneurship ecosystem, and provides a platform for talented youth who have skills but not enough capital or industrial connections to bring their designs to life and gain recognition. Myntra aims to revolutionize fashion retailing by aligning user preferences with product offerings and promoting innovation and entrepreneurship within its community.
+
+# Features and Benefits
+Trend Identification: Utilize user-submitted designs to identify and showcase trending styles.
+Engagement on a Shopping Platform: Enhance user engagement through direct participation in the design and selection process.
+Weekly Polls and Leaderboard: Conduct weekly polls to select the top designs and maintain a leaderboard of top designers.
+Designer Profiles with Ratings: Display designer profiles with ratings based on user votes, fostering a competitive and rewarding environment.
+
+# Website Flow
+## 1. User Registration and Login
+Sign Up Page: Allows new users to create an account by providing basic information (name, email, password).
+Login Page: Existing users can log in using their credentials.
+## 2. Submit Design
+Design Submission Form: Users can upload their designs, provide a description, and select categories (e.g., clothing, accessories).
+Image Upload: Users can upload images of their designs in various formats.
+Submission Guidelines: Display rules and guidelines for submitting designs.
+## 3. Admin Panel
+Submission Review: Admins can review and approve/reject submitted designs before they are published for voting.
+Poll Management: Admins can manage weekly polls, including selecting designs for the poll and overseeing the voting process.
+## 4. Weekly Polls
+Poll Page: Displays all submitted designs for the current week.
+Voting Mechanism: Users can vote for their favorite designs. Each user gets a limited number of votes per week.
+Leaderboard: Shows the current ranking of designs based on user votes.
+## 5. Top Designers
+Designer Profiles: Displays profiles of top designers with their ratings, design history, and user reviews.
+## 6. User Profile
+Profile Dashboard: Users can view and edit their profile information, including their submitted designs and voting history.
+Achievements: Displays user achievements, such as the number of designs submitted, votes received, and rankings.
+
+# Tech Stack
+MongoDB: Database
+Express.js: Backend framework
+React: Frontend library
+Node.js: Runtime environment
 
 # Getting Started with Create React App
 
